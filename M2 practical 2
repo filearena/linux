@@ -1,0 +1,43 @@
+Practical No. 2
+
+Foreground and Background
+
+Manage foreground and background processes.
+
+Theory: Linux allows multitasking via jobs. 
+Foreground jobs run interactively and block the terminal shell until complete. 
+Background jobs execute silently in the background, keeping the CLI available for additional inputs.
+
+Requirements:
+
+•Linux
+•WSL Terminal
+
+a) Run a process in background using &
+
+$ sleep 100 &
+
+Appending an ampersand (&) at the end of a command instructs the shell to spawn it as a background job, outputting its background job number and PID immediately.
+
+b) View background jobs using jobs
+
+$ jobs
+
+Lists active background jobs spawned by the current shell session, indicating their status (running, stopped).
+
+c) Bring job to foreground using fg
+
+$ fg %1
+
+Moves the background job identified by number (e.g. job 1) back into the active interactive foreground state.
+
+d) Suspend and resume processes using Ctrl + Z and bg
+
+Press Ctrl + Z while job is running in foreground.
+
+$ bg %1
+
+Ctrl + Z immediately stops/suspends an ongoing foreground task. Executing bg %1 resumes that stopped task safely in the background.
+
+
+
