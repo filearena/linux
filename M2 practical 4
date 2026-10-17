@@ -1,0 +1,43 @@
+Practical No. 4
+
+Introduction to Shell Scripting
+
+Create and execute simple shell scripts.
+
+Theory: A shell script is a text file containing a sequence of commands that the shell interprets and executes in order.
+It starts with a shebang (#!/bin/bash) line specifying the path to the interpreter.
+
+Requirement:
+
+•Linux
+•WSL Terminal
+
+a) Create a script file using vi or nano.
+
+b) Write a simple script using echo statements:
+
+$ nano name.sh
+
+#Code inside file:
+
+#!/bin/bash
+echo "Welcome to linux shell scripting"
+echo "Ubuntu platform"
+
+Opens a terminal text editor to build the script.
+
+echo outputs text blocks directly onto the standard terminal stream.
+
+c) Make script executable using chmod + x:
+
+$ chmod +x name.sh
+
+Text files lack execution rights by default.
+chmod +x updates permission to let the file run like a binary.
+
+d) Execute script and observe output:
+
+$ ./name.sh
+
+Using ./ triggers the file execution inside the active working directory, 
+prompting the shell to read the code.
