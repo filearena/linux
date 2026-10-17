@@ -1,0 +1,37 @@
+Practical NO: 2
+
+Linux File System Navigation: Perform directory navigation and listening operations.
+
+Theory: Linux provides a hierarchical file system for storing and organizing files and directories. 
+Directory navigation commands help users move between different folders while listing commands help them view the contents of a directory.
+
+Requirement:
+
+•Computer system with Linux install.
+•Linux Terminal
+•User account with permission to create and remove directories
+•Basic knowledge of Linux file system and commands
+
+a) List files using ls, ls-l, ls-a
+
+$ ls :- Display files and directories in the current directory.
+
+$ ls -l :- Display files and directories in detailed format.
+
+$ ls -a :- Display all files and directories including hidden files.
+
+b) Change directories using cd (absolute & relative paths)
+
+$ cd .. :- Moves to the parent directory.
+
+$ cd directory_name :- Changes the specified directory using a relative path.
+
+$ cd /home/user/directory_name :- Changes to the specified directory using an absolute path.
+
+c) Create directories using mkdir
+
+$ mkdir directory_name :- Create a new directory with the specified name.
+
+d) Remove directories using rmdir
+
+$ rmdir directory_name :- Removes an empty directory from the current directory.
