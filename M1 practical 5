@@ -1,0 +1,35 @@
+Practical NO: 5
+
+User and Group Management: Create and manage users and groups.
+
+Theory: Linux provides user and group management commands to control access to system resources. Administrators can create, modify and delete users and groups, and assign users to groups for better security and management.
+
+Requirements:
+
+•Linux Operating system
+•Terminal with sudo privileges
+•User account with administrative rights
+
+a) Create a new user using useradd and set password using passwd.
+
+$ sudo useradd username : Create a new user account in the system.
+
+$ sudo passwd username : Sets or changes the password for the specified user.
+
+b) Delete a user using userdel
+
+$ sudo userdel username : Delete the specified user account from the system.
+
+c) Create and delete groups using groupadd, groupdel
+
+$ sudo groupadd groupname : Create a new group in the system.
+
+$ sudo groupdel groupname : Deletes the specified group from the system.
+
+d) Add user to groups and verify using id
+
+$ sudo usermod -aG groupname username : Add the specified user to a group.
+
+$ id username : Displays the user's ID, group ID, and group membership information.
+
+
