@@ -1,0 +1,45 @@
+Practical No. 1
+
+Process Management Basics
+
+Understand process creation and monitoring.
+
+Theory: A process is an active instance of a running program in Linux. 
+Every process is tracked by the kernel via a unique integer called the Process ID (PID).
+Process management allows users to view resource utilization and terminate frozen or unwanted tasks safely.
+
+Requirement:
+
+•Linux
+•WSL Terminal
+
+a) View running process using ps and top
+
+$ ps aux
+
+ps aux takes a static snapshot of all active processes on the system.
+
+$ top
+
+top launches an interactive, real-time interface displaying resource usage dynamically.
+
+b) Identifying Process ID (PID)
+
+$ pgrep Firefox
+
+$ ps aux | grep Firefox
+
+Used to extract the unique PID of a running process needed to perform signals or tracking.
+
+c) Kill a process using kill command
+
+$ kill 1234
+
+Standard kill politely asks the process to exit, saving data.
+
+d) Use htop for interactive process monitoring
+
+$ htop
+
+An interactive text-based visual process viewer that expands on top by letting users sort, 
+search and kill processes cleanly using shortcut keys.
