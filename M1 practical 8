@@ -1,0 +1,40 @@
+Practical No. 8
+
+Text Editing using Nano Editor: Create and Edit Files Using Nano Editor
+
+Theory: The Nano editor is a simple, user-friendly text editor in Linux used to create, edit, search and save text files.
+
+Requirements:
+
+•Linux/Ubuntu Terminal
+•Nano Editor
+•Basic knowledge of Nano shortcut keys
+
+a) Open and create a file using Nano
+
+$ nano student.txt
+
+Creates a new file named student.txt or opens it if it already exists.
+
+b) Edit text and save the file
+
+Ctrl + O: Saves the edited file.
+
+Ctrl + X: Exits the Nano editor.
+
+c) Search and replace text
+
+Ctrl + W: Searches for a particular word or text in the file.
+
+Ctrl + \: Searches for a word and replaces it with another word.
+
+d) Compare Nano and Vi editors (advantages and differences)
+
+1.Nano                                 2.Vi
+
+•Easy for beginners                    •Takes more practice
+•Commands are shown at the bottom      •Commands are mainly shortcut-based
+•No separate modes for basic editing   •Has Insert and Command modes
+•Simple editing and saving             •Powerful editing features
+•Best for quick text editing           •Better for advanced text editing
+
