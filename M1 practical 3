@@ -1,0 +1,34 @@
+Practical NO: 3
+
+File Handling Operations: Create and manage files.
+
+Theory: Linux provides various commands to create, view, copy, move and delete files, making file management easy through the terminal.
+
+Requirement:
+
+•Linux Operating system
+•Linux terminal
+•Text files for performing file handling operations.
+•Basic knowledge of Linux file commands.
+
+a) Create files using touch
+
+$ touch filename.txt : creates a new empty file with the specified name.
+
+b) View file contents using cat, more, less
+
+$ cat filename.txt : Display the complete contents of a file.
+
+$ more filename.txt : Displays the contents of a file one screen at a time.
+
+$ less filename.txt : Displays file contents page by page and allow scrolling.
+
+c) Copy and move files using cp, mv
+
+$ cp source.txt destination.txt : creates a copy of the source file with the specified destination name.
+
+$ mv oldname.txt newname.txt : Moves or renames a file.
+
+d) Delete files using rm
+
+$ rm filename.txt : Permanently removes the specified file from the directory.
