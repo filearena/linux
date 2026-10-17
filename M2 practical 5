@@ -1,0 +1,100 @@
+Practical No: 05
+
+Variables, Control Statements, and Loops
+
+Using shell variables, capturing runtime console arguments, logical paths, and automated loops.
+
+Theory: Dynamic scripting requires storing configuration in variables, 
+evaluating conditionals (if-else), and using loop mechanisms (for or while) to handle repetitive control flows.
+
+Requirement:
+
+•Linux
+•WSL Terminal
+
+a) Declare and use variable in shell script.
+
+b) Accept user input using read.
+
+$ vi name.sh
+
+code :- 
+
+#!/bin/bash
+
+echo "What is your name:"
+
+read user_name
+
+echo "Hello,$user_name! Nice to meet you."
+
+c) Use conditional statements (if, else)
+
+$ nano ifelse.sh
+
+code :- 
+
+#!/bin/bash
+
+echo "Enter a number:"
+
+read num
+
+if [ $num -gt 0 ]
+
+then
+
+    echo "Positive Number"
+
+else
+
+    echo "Zero or Negative Number"
+
+fi
+
+$ chmod +x ifelse.sh
+
+$ ./ifelse.sh
+
+d) Implement simple loop (for or while)
+
+--- For loop :- 
+
+$ nano forloop.sh
+
+#!/bin/bash
+
+for i in 1 2 3 4 5
+
+do
+
+    echo "Number: $i"
+
+done
+
+$ chmod +x forloop.sh
+
+$ ./forloop.sh
+
+--- While loop :- 
+
+$ nano whileloop.sh
+
+#!/bin/bash
+
+count=1
+
+while [ $count -le 5 ]
+
+do
+
+    echo $count
+
+    count=$((count+1))
+
+done
+
+$ chmod +x whileloop.sh
+
+$ ./whileloop.sh
+
