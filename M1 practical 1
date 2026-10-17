@@ -1,0 +1,38 @@
+Practical NO: 1
+
+Introduction to Linux and Terminal Basics:
+Understand Basic Linux environment and command-line usage.
+
+Theory:-
+
+Linux is an open-source operating system widely used for servers, programming, networking, and cybersecurity. The Terminal is a command line interface used to interact with the Linux system using commands.
+
+Requirements:
+
+•Linux Operating system
+•Terminal
+•Basic knowledge of Linux commands.
+
+a) Open terminal and execute basic commands.
+
+$ whoami :- Display the username of the currently logged-in-user.
+
+$ date :- Display the current system date and time
+
+$ cal :- Display the calendar of the current month.
+
+$ uname :- Display basic information about the Linux operating system.
+
+b) Display current directory using
+
+$ pwd :- Display the full path of the current working directory.
+
+c) View logged-in users using
+
+$ who :- Display the users currently logged into the system.
+
+d) Clear screen and exit terminal
+
+$ clear :- Clears all previous output from the terminal screen
+
+$ exit :- closes the current terminal session.
