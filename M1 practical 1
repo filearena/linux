@@ -43,26 +43,18 @@ $ exit :- closes the current terminal session.
 
 • Execution :- 
 
-pwd
+whoami
 
-ls
+date
 
-ls -l
+cal
 
-ls -a
-
-mkdir -p ~/LinuxLab
-
-cd ~/LinuxLab
-
-mkdir -p dir1 dir2 dir3
-
-ls
-
-cd dir1
+uname
 
 pwd
 
-cd ..
+who
 
-pwd
+clear
+
+exit
