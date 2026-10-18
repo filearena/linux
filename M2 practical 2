@@ -2,16 +2,23 @@ Practical No. 2
 
 Foreground and Background
 
+Aim :- 
+
 Manage foreground and background processes.
 
-Theory: Linux allows multitasking via jobs. 
+Theory :- 
+
+Linux allows multitasking via jobs. 
 Foreground jobs run interactively and block the terminal shell until complete. 
-Background jobs execute silently in the background, keeping the CLI available for additional inputs.
+Background jobs execute silently in the background, 
+keeping the CLI available for additional inputs.
 
 Requirements:
 
 •Linux
 •WSL Terminal
+
+Command explanation :-
 
 a) Run a process in background using &
 
@@ -39,5 +46,18 @@ $ bg %1
 
 Ctrl + Z immediately stops/suspends an ongoing foreground task. Executing bg %1 resumes that stopped task safely in the background.
 
+Execution :- 
 
+ps
 
+ps aux
+
+top
+
+•Press q to exit top.
+
+pgrep -x bash
+
+ps aux | grep '[b]ash'
+
+ps -p PID -f
