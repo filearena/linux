@@ -44,12 +44,18 @@ $ rmdir directory_name :- Removes an empty directory from the current directory.
 
 • Execution :- 
 
-cd ~/LinuxLab
-
-mkdir -p dir1 dir2 dir3
+ls
 
 ls -l
 
-rmdir dir1
+ls -a
 
-ls
+cd ..
+
+mkdir test
+
+cd test
+
+cd ..
+
+rmdir test
