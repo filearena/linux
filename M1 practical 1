@@ -1,5 +1,7 @@
 Practical NO: 1
 
+Aim :- 
+
 Introduction to Linux and Terminal Basics:
 Understand Basic Linux environment and command-line usage.
 
@@ -12,6 +14,8 @@ Requirements:
 •Linux Operating system
 •Terminal
 •Basic knowledge of Linux commands.
+
+Command explanation :-
 
 a) Open terminal and execute basic commands.
 
@@ -36,3 +40,15 @@ d) Clear screen and exit terminal
 $ clear :- Clears all previous output from the terminal screen
 
 $ exit :- closes the current terminal session.
+
+Execution :- 
+
+whoami
+date
+cal
+uname
+pwd
+who
+clear
+exit
+
