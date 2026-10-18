@@ -41,20 +41,18 @@ $ rm filename.txt : Permanently removes the specified file from the directory.
 
 Execution :-
 
-touch filename.txt
+cd ~/LinuxLab
 
-cat filename.txt
+touch file1.txt
 
-more filename.txt
+touch a.txt b.txt c.txt
 
-less filename.txt
+ls
 
-touch source.txt
+printf 'Hello from Ashutosh\n' > file1.txt
 
-cp source.txt destination.txt
+cat file1.txt
 
-mv oldname.txt newname.txt
+more file1.txt
 
-rm filename.txt
-
-
+less file1.txt
