@@ -47,32 +47,14 @@ d) Compare Nano and Vi editors (advantages and differences)
 
 • Execution :- 
 
-cd ~/LinuxLab
+nano student.txt
 
-echo "First Line" > notes.txt
+Ctrl + O
 
-cat notes.txt
+Enter
 
-echo "Second Line" > notes.txt
+Ctrl + W
 
-echo "First Line" > notes.txt
+Ctrl + \
 
-cat notes.txt
-
-echo "Second Line" >> notes.txt
-
-cat notes.txt
-
-cat notes.txt | grep "Line"
-
-cat notes.txt | sort
-
-wc -l notes.txt
-
-ls | wc -l
-
-ls | sort
-
-who | wc -l
-
-wc notes.txt
+Ctrl + X
