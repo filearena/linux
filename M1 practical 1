@@ -41,7 +41,7 @@ $ clear :- Clears all previous output from the terminal screen
 
 $ exit :- closes the current terminal session.
 
-Execution :- 
+• Execution :- 
 
 pwd
 
