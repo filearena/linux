@@ -2,9 +2,12 @@ Practical No. 3
 
 Process Priority and Scheduling
 
+Aim :- 
+
 Process Control Process Priority
 
-Theory: Every process has a scheduling priority defined by a “Nice value” ranging from -20 
+Theory :- 
+Every process has a scheduling priority defined by a “Nice value” ranging from -20 
 (highest priority, least nice) to 19 (lowest priority). 
 Standard user tasks default to a value of 0.
 
@@ -12,6 +15,8 @@ Requirements:
 
 •Linux
 •WSL Terminal
+
+Command explanation :- 
 
 a) Check process priority using top:
 
@@ -38,3 +43,33 @@ d) Observe impact of priority on CPU usage.
 Highly priority tasks are allocated larger, 
 more frequent time slices by the OS CPU scheduler, 
 leading to faster execution times over lower priority background jobs.
+
+Execution :- 
+
+sleep 100 &
+
+echo "Terminal is available"
+
+jobs
+
+sleep 600
+
+•Press Ctrl+Z to suspend it, then run :- 
+
+jobs
+
+bg %1
+
+jobs
+
+fg %1
+
+•Press Ctrl+C to terminate it. The job number %1 may differ depending on your terminal.
+
+nice -n 10 sleep 100 &
+
+jobs
+
+top
+
+•Press q to exit.
