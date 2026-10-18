@@ -46,10 +46,20 @@ $ who | wc -l : Counts the number of currently logged-in users.
 
 • Execution :- 
 
-sudo useradd -m linuxstudent
+echo "hello SYCS batch 1 students"
 
-sudo passwd linuxstudent
+name="Tushar"
 
-id linuxstudent
+echo "hello $name"
 
-sudo userdel linuxstudent
+echo "training" > textfile.txt
+
+echo "testing" >> textfile.txt
+
+cat textfile.txt
+
+ls | sort
+
+ls | wc -l
+
+who | wc -l
