@@ -40,35 +40,16 @@ $ id username : Displays the user's ID, group ID, and group membership informati
 
 • Execution :- 
 
-cd ~/LinuxLab
+sudo useradd student1
 
-touch myfile.txt
+sudo passwd student1
 
-ls -l myfile.txt
+sudo groupadd practicalgroup
 
-chmod u+x myfile.txt
+sudo usermod -aG practicalgroup student1
 
-ls -l myfile.txt
+id student1
 
-chmod g-w myfile.txt
+sudo groupdel practicalgroup
 
-ls -l myfile.txt
-
-chmod o+r myfile.txt
-
-ls -l myfile.txt
-
-chmod 754 myfile.txt
-
-ls -l myfile.txt
-
-Ownership commands — replace the names 
-with valid users and groups on your system :-
-
-cd ~/LinuxLab
-
-sudo chown username myfile.txt
-
-sudo chgrp groupname myfile.txt
-
-ls -l myfile.txt
+sudo userdel student1
