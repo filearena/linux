@@ -50,20 +50,8 @@ prompting the shell to read the code.
 
 • Execution :- 
 
-cd ~/LinuxLab
+nano name.sh
 
-cat > hello.sh <<'EOF'
+chmod +x name.sh
 
-#!/bin/bash
-
-echo "Welcome to Linux Shell Scripting"
-
-echo "Ubuntu Platform"
-
-EOF
-
-chmod +x hello.sh
-
-./hello.sh
-
-
+./name.sh
