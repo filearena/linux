@@ -1,8 +1,12 @@
 Practical NO: 2
 
+Aim :-
+
 Linux File System Navigation: Perform directory navigation and listening operations.
 
-Theory: Linux provides a hierarchical file system for storing and organizing files and directories. 
+Theory :-
+
+Linux provides a hierarchical file system for storing and organizing files and directories. 
 Directory navigation commands help users move between different folders while listing commands help them view the contents of a directory.
 
 Requirement:
@@ -11,6 +15,8 @@ Requirement:
 •Linux Terminal
 •User account with permission to create and remove directories
 •Basic knowledge of Linux file system and commands
+
+Command explanation :-
 
 a) List files using ls, ls-l, ls-a
 
@@ -35,3 +41,21 @@ $ mkdir directory_name :- Create a new directory with the specified name.
 d) Remove directories using rmdir
 
 $ rmdir directory_name :- Removes an empty directory from the current directory.
+
+Execution :- 
+
+ls
+
+ls -l
+
+ls -a
+
+cd ..
+
+cd directory_name
+
+cd /home/user/directory_name
+
+mkdir directory_name
+
+rmdir directory_name
