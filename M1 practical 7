@@ -47,13 +47,22 @@ r : Replace the character under the cursor.
 
 • Execution :- 
 
-sudo groupadd developers
+vi notes.txt
 
-sudo useradd -m linuxstudent
+i
 
-sudo usermod -aG developers linuxstudent
+Esc
 
-id linuxstudent
+:w
 
-getent group developers
+:q
 
+:wq
+
+x
+
+dd
+
+u
+
+r
