@@ -39,7 +39,7 @@ d) Delete files using rm
 
 $ rm filename.txt : Permanently removes the specified file from the directory.
 
-Execution :-
+• Execution :-
 
 cd ~/LinuxLab
 
