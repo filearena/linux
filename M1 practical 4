@@ -37,26 +37,14 @@ $ sudo chgrp groupname filename.txt : Changes the group ownership of the specifi
 
 • Execution :- 
 
-cd ~/LinuxLab
+touch filename.txt
 
-printf 'Hello from Ashutosh\n' > file1.txt
+ls -l filename.txt
 
-cp file1.txt backup.txt
+chmod u+x filename.txt
 
-mkdir -p Documents
+chmod 785 filename.txt
 
-cp file1.txt Documents/
+sudo chown student filename.txt
 
-mv file1.txt newfile.txt
-
-ls
-
-cat newfile.txt
-
-mv newfile.txt Documents/
-
-ls Documents
-
-rm backup.txt
-
-ls
+sudo chgrp student filename.txt
