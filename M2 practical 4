@@ -48,7 +48,7 @@ $ ./name.sh
 Using ./ triggers the file execution inside the active working directory, 
 prompting the shell to read the code.
 
-Execution :- 
+• Execution :- 
 
 cd ~/LinuxLab
 
