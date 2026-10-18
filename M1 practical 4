@@ -35,7 +35,7 @@ $ sudo chown username filename.txt : Changes the owner of the specified file.
 
 $ sudo chgrp groupname filename.txt : Changes the group ownership of the specified file.
 
-Execution :- 
+• Execution :- 
 
 cd ~/LinuxLab
 
