@@ -38,7 +38,7 @@ $ sudo usermod -aG groupname username : Add the specified user to a group.
 
 $ id username : Displays the user's ID, group ID, and group membership information.
 
-Execution :- 
+• Execution :- 
 
 cd ~/LinuxLab
 
