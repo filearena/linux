@@ -1,14 +1,22 @@
 Practical NO: 06
 
+Aim :-
+
 Basic Shell Commands and Redirect: Use essential shell commands and output redirection.
 
-Theory: Shell commands are used to perform basic operations in Linux. Redirection (>, >>) sends output to a file, while a pipe (|) sends the output of one command as input to another command.
+Theory :- 
+
+Shell commands are used to perform basic operations in Linux. 
+Redirection (>, >>) sends output to a file,
+while a pipe (|) sends the output of one command as input to another command.
 
 Requirements:
 
 •Linux / Ubuntu Terminal
 •Basic knowledge of shell commands
 •Commands: echo, ls, sort, wc, cat.
+
+Command explanation :- 
 
 a) Display text and variables using echo.
 
@@ -35,3 +43,13 @@ d) Count lines / words using wc
 $ ls | wc -l : Counts the number of lines / items in the output of ls.
 
 $ who | wc -l : Counts the number of currently logged-in users.
+
+Execution :- 
+
+sudo useradd -m linuxstudent
+
+sudo passwd linuxstudent
+
+id linuxstudent
+
+sudo userdel linuxstudent
