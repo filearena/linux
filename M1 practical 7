@@ -1,14 +1,21 @@
 Practical NO: 7
 
+Aim :-
+
 Text Editing using vi Editor: Create and edit files using vi editor.
 
-Theory: The vi editor is a text editor in Linux used to create, edit, save and delete text in files.
+Theory :- 
+
+The vi editor is a text editor in Linux used to create,
+edit, save and delete text in files.
 
 Requirements:
 
 •Linux / Ubuntu Terminal
 •vi editor
 •Basic knowledge of vi modes and commands.
+
+Command explanation :-
 
 a) Open and create a file using vi.
 
@@ -37,3 +44,16 @@ dd : Deletes the current lines.
 u : Undo the last change.
 
 r : Replace the character under the cursor.
+
+Execution :- 
+
+sudo groupadd developers
+
+sudo useradd -m linuxstudent
+
+sudo usermod -aG developers linuxstudent
+
+id linuxstudent
+
+getent group developers
+
