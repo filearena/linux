@@ -106,97 +106,21 @@ $ ./whileloop.sh
 
 • Execution :- 
 
-cd ~/LinuxLab
+vi name.sh
 
-cat > name.sh <<'EOF'
-
-#!/bin/bash
-
-echo "What is your name?"
-
-read user_name
-
-echo "Hello, $user_name! Nice to meet you."
-
-EOF
-
-chmod +x name.sh
-
-./name.sh
-
-• B. Check Positive or Zero/Negative Number :- 
-
-cd ~/LinuxLab
-
-cat > ifelse.sh <<'EOF'
-
-#!/bin/bash
-
-echo "Enter a Number:"
-
-read num
-
-if [ "$num" -gt 0 ]
-
-then
-
-    echo "Positive Number"
-
-else
-
-    echo "Zero or Negative Number"
-
-fi
-
-EOF
+nano ifelse.sh
 
 chmod +x ifelse.sh
 
 ./ifelse.sh
 
-• C. Print Numbers Using a For Loop :- 
-
-cd ~/LinuxLab
-
-cat > forloop.sh <<'EOF'
-
-#!/bin/bash
-
-for i in 1 2 3 4 5
-
-do
-
-    echo "Number: $i"
-
-done
-
-EOF
+nano forloop.sh
 
 chmod +x forloop.sh
 
 ./forloop.sh
 
-• D. Print Numbers Using a While Loop :- 
-
-cd ~/LinuxLab
-
-cat > whileloop.sh <<'EOF'
-
-#!/bin/bash
-
-count=1
-
-while [ "$count" -le 5 ]
-
-do
-
-    echo "$count"
-
-    count=$((count+1))
-
-done
-
-EOF
+nano whileloop.sh
 
 chmod +x whileloop.sh
 
