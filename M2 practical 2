@@ -46,7 +46,7 @@ $ bg %1
 
 Ctrl + Z immediately stops/suspends an ongoing foreground task. Executing bg %1 resumes that stopped task safely in the background.
 
-Execution :- 
+• Execution :- 
 
 ps
 
