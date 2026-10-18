@@ -42,7 +42,7 @@ d) Remove directories using rmdir
 
 $ rmdir directory_name :- Removes an empty directory from the current directory.
 
-Execution :- 
+• Execution :- 
 
 cd ~/LinuxLab
 
