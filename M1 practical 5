@@ -1,14 +1,20 @@
 Practical NO: 5
 
+Aim :-
+
 User and Group Management: Create and manage users and groups.
 
-Theory: Linux provides user and group management commands to control access to system resources. Administrators can create, modify and delete users and groups, and assign users to groups for better security and management.
+Theory :-
+
+Linux provides user and group management commands to control access to system resources. Administrators can create, modify and delete users and groups, and assign users to groups for better security and management.
 
 Requirements:
 
 •Linux Operating system
 •Terminal with sudo privileges
 •User account with administrative rights
+
+Command explanation :-
 
 a) Create a new user using useradd and set password using passwd.
 
@@ -32,4 +38,19 @@ $ sudo usermod -aG groupname username : Add the specified user to a group.
 
 $ id username : Displays the user's ID, group ID, and group membership information.
 
+Execution :- 
+
+sudo useradd student1
+
+sudo passwd student1
+
+sudo groupadd practicalgroup
+
+sudo usermod -aG practicalgroup student1
+
+id student1
+
+sudo groupdel practicalgroup
+
+sudo userdel student1
 
