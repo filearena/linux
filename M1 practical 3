@@ -56,3 +56,5 @@ cat file1.txt
 more file1.txt
 
 less file1.txt
+
+•Press q to exit less or more if needed.
