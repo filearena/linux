@@ -44,7 +44,7 @@ $ ls | wc -l : Counts the number of lines / items in the output of ls.
 
 $ who | wc -l : Counts the number of currently logged-in users.
 
-Execution :- 
+• Execution :- 
 
 sudo useradd -m linuxstudent
 
