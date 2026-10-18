@@ -46,30 +46,10 @@ leading to faster execution times over lower priority background jobs.
 
 • Execution :- 
 
-sleep 100 &
-
-echo "Terminal is available"
-
-jobs
-
-sleep 600
-
-•Press Ctrl+Z to suspend it, then run :- 
-
-jobs
-
-bg %1
-
-jobs
-
-fg %1
-
-•Press Ctrl+C to terminate it. The job number %1 may differ depending on your terminal.
-
-nice -n 10 sleep 100 &
-
-jobs
-
 top
 
-•Press q to exit.
+nice -n 10 top
+
+renice -n 5 -p 1234
+
+top
