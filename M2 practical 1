@@ -50,7 +50,7 @@ $ htop
 An interactive text-based visual process viewer that expands on top by letting users sort, 
 search and kill processes cleanly using shortcut keys.
 
-Execution :- 
+• Execution :- 
 
 cd ~/LinuxLab
 
