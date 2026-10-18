@@ -1,8 +1,12 @@
 Practical NO: 4
 
+Aim :- 
+
 File Permission and Ownership: Understand and modify file permission.
 
-Theory: Linux uses file permission and ownership to control who can read, write or execute files. The ls -l, chmod, chown and chgrp commands are used to view and modify these permissions and ownership details.
+Theory :- 
+
+Linux uses file permission and ownership to control who can read, write or execute files. The ls -l, chmod, chown and chgrp commands are used to view and modify these permissions and ownership details.
 
 Requirements:
 
@@ -10,6 +14,8 @@ Requirements:
 •Linux terminal
 •A file for applying permissions and ownership
 •Basic knowledge of Linux permission commands.
+
+Command explanation :- 
 
 a) View file permission using ls -l
 
@@ -28,3 +34,22 @@ d) Change ownership using chown and chgrp
 $ sudo chown username filename.txt : Changes the owner of the specified file.
 
 $ sudo chgrp groupname filename.txt : Changes the group ownership of the specified file.
+
+Execution :- 
+
+touch filename.txt
+
+ls -l filename.txt
+
+chmod u+x filename.txt
+
+ls -l filename.txt
+
+chmod 755 filename.txt
+
+ls -l filename.txt
+
+sudo chown username filename.txt
+
+sudo chgrp groupname filename.txt
+
