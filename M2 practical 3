@@ -44,7 +44,7 @@ Highly priority tasks are allocated larger,
 more frequent time slices by the OS CPU scheduler, 
 leading to faster execution times over lower priority background jobs.
 
-Execution :- 
+• Execution :- 
 
 sleep 100 &
 
