@@ -2,9 +2,13 @@ Practical No. 1
 
 Process Management Basics
 
+Aim :-
+
 Understand process creation and monitoring.
 
-Theory: A process is an active instance of a running program in Linux. 
+Theory :- 
+
+A process is an active instance of a running program in Linux. 
 Every process is tracked by the kernel via a unique integer called the Process ID (PID).
 Process management allows users to view resource utilization and terminate frozen or unwanted tasks safely.
 
@@ -12,6 +16,8 @@ Requirement:
 
 •Linux
 •WSL Terminal
+
+Command explanation :- 
 
 a) View running process using ps and top
 
@@ -43,3 +49,41 @@ $ htop
 
 An interactive text-based visual process viewer that expands on top by letting users sort, 
 search and kill processes cleanly using shortcut keys.
+
+Execution :- 
+
+cd ~/LinuxLab
+
+cat > tushar1.txt <<'EOF'
+
+tushar is a student
+
+He studies computer science
+
+SYCS
+
+EOF
+
+cat tushar1.txt
+
+vi tushar1.txt
+
+•Inside vi, press Esc, type :wq and press Enter to save and exit.
+
+•For the Nano editor :- 
+
+cd ~/LinuxLab
+
+cat > nanoexample.txt <<'EOF'
+
+Welcome to Nano
+
+This is created using nano editor
+
+EOF
+
+cat nanoexample.txt
+
+nano nanoexample.txt
+
+•Inside Nano, save with Ctrl+O, press Enter, then exit with Ctrl+X.
