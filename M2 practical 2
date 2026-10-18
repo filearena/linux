@@ -48,16 +48,12 @@ Ctrl + Z immediately stops/suspends an ongoing foreground task. Executing bg %1 
 
 • Execution :- 
 
-ps
+sleep 100 &
 
-ps aux
+jobs
 
-top
+fg %1
 
-•Press q to exit top.
+Ctrl + Z
 
-pgrep -x bash
-
-ps aux | grep '[b]ash'
-
-ps -p PID -f
+bg %1
