@@ -52,38 +52,14 @@ search and kill processes cleanly using shortcut keys.
 
 • Execution :- 
 
-cd ~/LinuxLab
+ps aux
 
-cat > tushar1.txt <<'EOF'
+top
 
-tushar is a student
+pgrep Firefox
 
-He studies computer science
+ps aux | grep Firefox
 
-SYCS
+kill 1234
 
-EOF
-
-cat tushar1.txt
-
-vi tushar1.txt
-
-•Inside vi, press Esc, type :wq and press Enter to save and exit.
-
-•For the Nano editor :- 
-
-cd ~/LinuxLab
-
-cat > nanoexample.txt <<'EOF'
-
-Welcome to Nano
-
-This is created using nano editor
-
-EOF
-
-cat nanoexample.txt
-
-nano nanoexample.txt
-
-•Inside Nano, save with Ctrl+O, press Enter, then exit with Ctrl+X.
+htop
