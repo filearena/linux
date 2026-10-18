@@ -2,15 +2,21 @@ Practical No. 4
 
 Introduction to Shell Scripting
 
+Aim :- 
+
 Create and execute simple shell scripts.
 
-Theory: A shell script is a text file containing a sequence of commands that the shell interprets and executes in order.
+Theory :- 
+
+A shell script is a text file containing a sequence of commands that the shell interprets and executes in order.
 It starts with a shebang (#!/bin/bash) line specifying the path to the interpreter.
 
 Requirement:
 
 •Linux
 •WSL Terminal
+
+Command explanation :- 
 
 a) Create a script file using vi or nano.
 
@@ -41,3 +47,23 @@ $ ./name.sh
 
 Using ./ triggers the file execution inside the active working directory, 
 prompting the shell to read the code.
+
+Execution :- 
+
+cd ~/LinuxLab
+
+cat > hello.sh <<'EOF'
+
+#!/bin/bash
+
+echo "Welcome to Linux Shell Scripting"
+
+echo "Ubuntu Platform"
+
+EOF
+
+chmod +x hello.sh
+
+./hello.sh
+
+
