@@ -45,7 +45,7 @@ u : Undo the last change.
 
 r : Replace the character under the cursor.
 
-Execution :- 
+• Execution :- 
 
 sudo groupadd developers
 
